@@ -1,6 +1,6 @@
 # Privacy Policy — CUCO Currency Converter
 
-**Last updated: 7 September 2026**
+**Last updated: 10 October 2026**
 
 CUCO Currency Converter ("CUCO", "the app") is developed and published by
 **mochitg45**. This policy explains what the app does and does not do with
@@ -14,7 +14,8 @@ settings — is stored **only on your device**. We cannot see it, and it is neve
 uploaded to us.
 
 The app does two things that involve the network: it downloads exchange rates,
-and it shows advertisements.
+and it shows advertisements. On Android it also sends usage
+statistics to Google Analytics for Firebase.
 
 ## Information the app stores on your device
 
@@ -63,6 +64,17 @@ you can reset or delete your advertising ID.
 
 We do not receive your personal information from Google. We see only aggregate
 reporting, such as how many ads were shown.
+
+## Usage analytics (Android)
+
+The Android version of CUCO uses **Google Analytics for Firebase** to count
+how the app is used: which screens are opened (for example Convert, Rates or
+Budget), how often the app is opened, and the device model, operating system
+version, app version and approximate country. It does not record amounts you
+type, your currency list, trips, expenses or anything else you enter. This
+data is collected by Google on our behalf and governed by Google's
+[Privacy Policy](https://policies.google.com/privacy). We see only aggregate
+reports and use them to decide what to improve.
 
 ## Permissions
 
