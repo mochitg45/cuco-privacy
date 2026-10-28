@@ -1,6 +1,6 @@
 # Privacy Policy — CUCO Currency Converter
 
-**Last updated: 22 October 2026**
+**Last updated: 28 October 2026**
 
 CUCO Currency Converter ("CUCO", "the app") is developed and published by
 **mochitg45**. This policy explains what the app does and does not do with
@@ -23,8 +23,9 @@ The following stays on your phone and is never transmitted to us:
 
 - The currencies in your rates list, and their order
 - Your rate alerts and whether they have triggered
-- Your trips, expenses, categories, notes, and the exchange rate recorded with
-  each expense
+- Your trips (name, destination, dates and budget), expenses, categories, notes,
+  and the exchange rate recorded with each expense
+- The ids of calendar events you turn into a trip
 - Your settings: home currency, chosen theme, and recently used currency pairs
 - A cached copy of the most recent exchange rates, so the app works offline
 
@@ -65,6 +66,10 @@ you can reset or delete your advertising ID.
 We do not receive your personal information from Google. We see only aggregate
 reporting, such as how many ads were shown.
 
+## In-app purchase
+
+Remove ads is a one-time purchase handled by Google Play or the App Store. RevenueCat, our purchase provider, receives an anonymous app user id and the purchase receipt to confirm it.
+
 ## Usage analytics (Android)
 
 The Android version of CUCO uses **Google Analytics for Firebase** to count
@@ -73,11 +78,15 @@ Budget), which features are used (such as completing a conversion, creating a
 rate alert or adding an expense), the currency codes involved (for example USD
 and EUR), the expense category chosen, how often the app is opened, and the
 device model, operating system version, app version and approximate country.
-It does not record amounts you type, trip names, notes, or the values of your
+It does not record amounts you type, trip names, dates, budgets, notes, calendar contents, or the values of your
 expenses, wallet or alerts. This
 data is collected by Google on our behalf and governed by Google's
 [Privacy Policy](https://policies.google.com/privacy). We see only aggregate
 reports and use them to decide what to improve.
+
+## Calendar
+
+If you tap Find trips in my calendar, CUCO asks for permission to read your calendar. It looks for flight and hotel events from today to twelve months ahead to suggest trips. Event titles, places and dates are read on your device only. Nothing from your calendar is stored except the ids of the events you turn into a trip, and nothing is sent to us, to Google Analytics or to anyone else. You can turn calendar access off at any time in your device settings.
 
 ## Permissions
 
@@ -87,6 +96,7 @@ CUCO requests:
 - **Notifications** — only if you create a rate alert and choose to allow them.
   Notifications are generated on your device; no notification content is sent
   to a server. You may decline, and the rest of the app works normally.
+- **Calendar (read)** — only when you use Find trips in my calendar.
 
 CUCO does **not** request location, contacts, camera, microphone, or access to
 your files. It does not read or store any payment or banking details, and it
