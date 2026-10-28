@@ -25,7 +25,7 @@ The following stays on your phone and is never transmitted to us:
 - Your rate alerts and whether they have triggered
 - Your trips (name, destination, dates and budget), expenses, categories, notes,
   and the exchange rate recorded with each expense
-- The ids of calendar events you turn into a trip
+- The ids of the calendar events an imported trip came from
 - Your settings: home currency, chosen theme, and recently used currency pairs
 - A cached copy of the most recent exchange rates, so the app works offline
 
@@ -86,7 +86,7 @@ reports and use them to decide what to improve.
 
 ## Calendar
 
-If you tap Find trips in my calendar, CUCO asks for permission to read your calendar. It looks for flight and hotel events from today to twelve months ahead to suggest trips. Event titles, places and dates are read on your device only. Nothing from your calendar is stored except the ids of the events you turn into a trip, and nothing is sent to us, to Google Analytics or to anyone else. You can turn calendar access off at any time in your device settings.
+If you tap Find trips in my calendar, CUCO asks for permission to read your calendar. It looks for flight and hotel events from yesterday to twelve months ahead to suggest trips. Event titles, places and dates are read on your device only. When you add a suggested trip, CUCO saves that trip (its city, currency and dates) and the ids of the calendar events it came from, so they are not suggested again. Nothing else from your calendar is stored, and nothing is sent to us, to Google Analytics or to anyone else. You can turn calendar access off at any time in your device settings.
 
 ## Permissions
 
