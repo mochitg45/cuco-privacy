@@ -68,13 +68,12 @@ reporting, such as how many ads were shown.
 
 ## In-app purchase
 
-Remove ads is a one-time purchase handled by Google Play or the App Store. RevenueCat, our purchase provider, receives an anonymous app user id and the purchase receipt to confirm it.
+Remove ads is a one-time purchase handled by Google Play or the App Store. To check whether you own it, the app contacts RevenueCat, our purchase provider, each time it starts; RevenueCat receives an anonymous app user ID, your purchase history for this app, and basic device and network information such as your IP address. RevenueCat does not receive your name or anything you enter in CUCO.
 
 ## Usage analytics (Android)
 
 The Android version of CUCO uses **Google Analytics for Firebase** to count
-how the app is used: which screens are opened (for example Convert, Rates or
-Budget), which features are used (such as completing a conversion, creating a
+how the app is used: which screens are opened (for example Today, Spend, Wallet or Tools), which features are used (such as completing a conversion, creating a
 rate alert or adding an expense), the currency codes involved (for example USD
 and EUR), the expense category chosen, how often the app is opened, and the
 device model, operating system version, app version and approximate country.
